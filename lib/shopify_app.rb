@@ -61,8 +61,8 @@ module ShopifyApp
   require 'shopify_app/session/user_session_storage'
 
   # scopes
-  require 'shopify_app/scopes/shop_access_scopes_strategy'
-  require 'shopify_app/scopes/user_access_scopes_strategy'
+  require 'shopify_app/access_scopes/shop_strategy'
+  require 'shopify_app/access_scopes/user_strategy'
 
   # omniauth_configuration
   require 'shopify_app/omniauth_configuration'
