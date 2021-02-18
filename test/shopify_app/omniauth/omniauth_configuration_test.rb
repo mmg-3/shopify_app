@@ -110,7 +110,7 @@ module ShopifyApp
           user_tokens: true,
           'shopify.omniauth_params' => {
             shop: 'shop.myshopify.com',
-          }.with_indifferent_access
+          }.with_indifferent_access,
         }.with_indifferent_access,
         options: {
           client_options: {},
